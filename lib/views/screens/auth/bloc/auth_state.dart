@@ -11,7 +11,14 @@ final class AuthInitial extends AuthState {}
 
 final class AuthLoading extends AuthState {}
 
-final class AuthSuccess extends AuthState {}
+final class AuthSuccess extends AuthState {
+  const AuthSuccess({this.isLoggedIn = false});
+
+  final bool isLoggedIn;
+
+  @override
+  List<Object> get props => [isLoggedIn];
+}
 
 final class AuthFailure extends AuthState {
   const AuthFailure({required this.message});

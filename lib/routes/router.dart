@@ -15,6 +15,8 @@ import 'package:flutter_template/views/screens/setting/setting_page.dart';
 import 'package:flutter_template/views/screens/theme/theme_screen.dart';
 import 'package:go_router/go_router.dart';
 
+part 'router_model.dart';
+
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 final _shellNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -51,7 +53,12 @@ final routerConfig = GoRouter(
     GoRoute(
       parentNavigatorKey: _rootNavigatorKey,
       path: MyRoutes.otpScreen,
-      builder: (context, state) => const MyOtpScreen(),
+      builder: (context, state) {
+        final model = state.extra! as OTPRouteModel;
+        return MyOtpScreen(
+          phone: model.phoneNumber,
+        );
+      },
     ),
     GoRoute(
       parentNavigatorKey: _rootNavigatorKey,

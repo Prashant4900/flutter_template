@@ -1,4 +1,4 @@
-import 'package:flutter_template/models/user_model.dart';
+import 'package:flutter_template/entities/user_entity.dart';
 
 class AuthRepository {
   Future<void> login(String email, String password) async {
@@ -9,7 +9,7 @@ class AuthRepository {
     }
   }
 
-  Future<void> register(UserModel userModel) async {
+  Future<void> register(UserEntity userModel) async {
     try {
       await Future<void>.delayed(const Duration(seconds: 2));
     } catch (e) {
@@ -34,6 +34,14 @@ class AuthRepository {
   }
 
   Future<void> facebookSignIn() async {
+    try {
+      await Future<void>.delayed(const Duration(seconds: 2));
+    } catch (e) {
+      throw Exception(e);
+    }
+  }
+
+  Future<void> signOut() async {
     try {
       await Future<void>.delayed(const Duration(seconds: 2));
     } catch (e) {

@@ -16,5 +16,14 @@ ThemeData appTheme(
     useMaterial3: true,
   ).copyWith(
     textTheme: GoogleFonts.robotoSlabTextTheme(baseTheme.textTheme),
+    appBarTheme: _appBarTheme(systemUiOverlayStyle),
+  );
+}
+
+AppBarTheme _appBarTheme(SystemUiOverlayStyle systemUiOverlayStyle) {
+  return AppBarTheme(
+    scrolledUnderElevation: 0,
+    elevation: 0,
+    systemOverlayStyle: systemUiOverlayStyle,
   );
 }

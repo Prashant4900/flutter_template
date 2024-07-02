@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_template/models/user_model.dart';
+import 'package:flutter_template/entities/user_entity.dart';
 import 'package:flutter_template/repositories/auth_repository.dart';
 import 'package:flutter_template/setup.dart';
 
@@ -16,6 +16,8 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     on<FacebookLoginEvent>(_facebookLogin);
     on<LoginEvent>(_loginLogin);
     on<RegisterEvent>(_registerLogin);
+    on<RegisterEvent>(_registerLogin);
+    on<SignOutEvent>(_signOut);
   }
 
   final authRepo = getIt<AuthRepository>();
@@ -27,7 +29,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     emit(AuthLoading());
     try {
       await authRepo.login(event.email, event.password);
-      emit(AuthSuccess());
+      emit(const AuthSuccess(isLoggedIn: true));
     } catch (e) {
       emit(AuthFailure(message: e.toString()));
     }
@@ -39,8 +41,8 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   ) async {
     emit(AuthLoading());
     try {
-      await authRepo.register(event.userModel);
-      emit(AuthSuccess());
+      await authRepo.register(event.userEntity);
+      emit(const AuthSuccess(isLoggedIn: true));
     } catch (e) {
       emit(AuthFailure(message: e.toString()));
     }
@@ -53,7 +55,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     emit(AuthLoading());
     try {
       await authRepo.facebookSignIn();
-      emit(AuthSuccess());
+      emit(const AuthSuccess(isLoggedIn: true));
     } catch (e) {
       emit(AuthFailure(message: e.toString()));
     }
@@ -66,7 +68,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     emit(AuthLoading());
     try {
       await authRepo.googleSignIn();
-      emit(AuthSuccess());
+      emit(const AuthSuccess(isLoggedIn: true));
     } catch (e) {
       emit(AuthFailure(message: e.toString()));
     }
@@ -79,7 +81,17 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     emit(AuthLoading());
     try {
       await authRepo.appleSignIn();
-      emit(AuthSuccess());
+      emit(const AuthSuccess(isLoggedIn: true));
+    } catch (e) {
+      emit(AuthFailure(message: e.toString()));
+    }
+  }
+
+  FutureOr<void> _signOut(SignOutEvent event, Emitter<AuthState> emit) async {
+    emit(AuthLoading());
+    try {
+      await authRepo.signOut();
+      emit(const AuthSuccess());
     } catch (e) {
       emit(AuthFailure(message: e.toString()));
     }

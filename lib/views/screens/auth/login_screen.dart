@@ -13,8 +13,30 @@ import 'package:flutter_template/views/components/navbar.dart';
 import 'package:flutter_template/views/screens/auth/bloc/auth_bloc.dart';
 import 'package:go_router/go_router.dart';
 
-class MyLoginScreen extends StatelessWidget {
+class MyLoginScreen extends StatefulWidget {
   const MyLoginScreen({super.key});
+
+  @override
+  State<MyLoginScreen> createState() => _MyLoginScreenState();
+}
+
+class _MyLoginScreenState extends State<MyLoginScreen> {
+  late final TextEditingController _emailController;
+  late final TextEditingController _passwordController;
+
+  @override
+  void initState() {
+    super.initState();
+    _emailController = TextEditingController();
+    _passwordController = TextEditingController();
+  }
+
+  @override
+  void dispose() {
+    _emailController.dispose();
+    _passwordController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +86,14 @@ class MyLoginScreen extends StatelessWidget {
                   const Spacer(flex: 3),
                   CustomElevatedButton(
                     label: context.lang.login,
-                    onPressed: () => context.pushReplacement(MyRoutes.home),
+                    onPressed: () {
+                      context.read<AuthBloc>().add(
+                            LoginEvent(
+                              email: _emailController.text,
+                              password: _passwordController.text,
+                            ),
+                          );
+                    },
                   ),
                   verticalMargin20,
                   CustomElevatedButton(
@@ -83,18 +112,20 @@ class MyLoginScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           IconButton(
-                            onPressed: () =>
-                                context.pushReplacement(MyRoutes.home),
+                            onPressed: () => context
+                                .read<AuthBloc>()
+                                .add(GoogleLoginEvent()),
                             icon: Assets.svg.google.svg(width: 32),
                           ),
                           IconButton(
                             onPressed: () =>
-                                context.pushReplacement(MyRoutes.home),
+                                context.read<AuthBloc>().add(AppleLoginEvent()),
                             icon: Assets.svg.apple.svg(width: 32),
                           ),
                           IconButton(
-                            onPressed: () =>
-                                context.pushReplacement(MyRoutes.home),
+                            onPressed: () => context
+                                .read<AuthBloc>()
+                                .add(FacebookLoginEvent()),
                             icon: Assets.svg.facebook.svg(width: 32),
                           ),
                         ],

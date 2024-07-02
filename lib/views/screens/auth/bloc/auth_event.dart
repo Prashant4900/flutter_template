@@ -17,6 +17,8 @@ class LoginEvent extends AuthEvent {
   List<Object> get props => [email, password];
 }
 
+class SignOutEvent extends AuthEvent {}
+
 class GoogleLoginEvent extends AuthEvent {}
 
 class AppleLoginEvent extends AuthEvent {}
@@ -24,10 +26,27 @@ class AppleLoginEvent extends AuthEvent {}
 class FacebookLoginEvent extends AuthEvent {}
 
 class RegisterEvent extends AuthEvent {
-  const RegisterEvent({required this.userModel});
+  const RegisterEvent({required this.userEntity});
 
-  final UserModel userModel;
+  final UserEntity userEntity;
 
   @override
-  List<Object> get props => [userModel];
+  List<Object> get props => [userEntity];
+}
+
+class RequestOtpEvent extends AuthEvent {
+  const RequestOtpEvent({required this.phone});
+  final String phone;
+
+  @override
+  List<Object> get props => [phone];
+}
+
+class SubmitOtpEvent extends AuthEvent {
+  const SubmitOtpEvent({required this.otp, required this.phone});
+  final String otp;
+  final String phone;
+
+  @override
+  List<Object> get props => [phone, otp];
 }
