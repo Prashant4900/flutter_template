@@ -222,4 +222,64 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get ifYouDontHaveAccount => 'إذا لم يكن لديك حساب، يمكنك ';
+
+  @override
+  String get continueWithPhone => 'استمرار مع الهاتف';
+
+  @override
+  String get alreadyHaveAcc => 'لديك حساب بالفعل، يمكنك ';
+
+  @override
+  String get cont => 'استمرار';
+
+  @override
+  String get accountDetails => 'تفاصيل الحساب';
+
+  @override
+  String get account => 'الحساب';
+
+  @override
+  String get themeMode => 'وضع المظهر';
+
+  @override
+  String get preferences => 'التفضيلات';
+
+  @override
+  String get policies => 'السياسات';
+
+  @override
+  String get privacyPolicy => 'سياسة الخصوصية';
+
+  @override
+  String get termAndCondition => 'شروط وأحكام';
+
+  @override
+  String get about => 'عن';
+
+  @override
+  String get contactUs => 'اتصل بنا';
+
+  @override
+  String get rateUs => 'قيمنا';
+
+  @override
+  String get openSourceLicense => 'رخص المصدري المفتوح';
+
+  @override
+  String get madeWithLove => 'صنع مع ❤️ في الهند';
+
+  @override
+  String get copyright2024 => 'حقوق النشر © 2024 براشانت نيجام';
+
+  @override
+  String get selectTheme => 'اختر المظهر';
+
+  @override
+  String get light => 'فاتح';
+
+  @override
+  String get dark => 'داكن';
+
+  @override
+  String get system => 'نظام';
 }

@@ -1,5 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- User Permissions for Internet Access -->
     <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- User Permissions for Notifications -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
         android:label="flutter_template"

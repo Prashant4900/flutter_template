@@ -11,10 +11,10 @@ class AppLocalizationsHi extends AppLocalizations {
   String get appName => 'कस्टम फ्लटर टेम्पलेट';
 
   @override
-  String get selectLanguage => 'भाषा चुने';
+  String get selectLanguage => 'भाषा चुनें';
 
   @override
-  String get language => 'हिंदी';
+  String get language => 'हिन्दी';
 
   @override
   String get login => 'लॉगिन';
@@ -50,16 +50,16 @@ class AppLocalizationsHi extends AppLocalizations {
   String get enterName => 'नाम दर्ज करें';
 
   @override
-  String get username => 'उपयोगकर्ता नाम';
+  String get username => 'यूज़रनेम';
 
   @override
-  String get enterUsername => 'उपयोगकर्ता नाम दर्ज करें';
+  String get enterUsername => 'यूज़रनेम दर्ज करें';
 
   @override
   String get phone => 'फ़ोन';
 
   @override
-  String get enterPhone => 'फ़ोन दर्ज करें';
+  String get enterPhone => 'फ़ोन नंबर दर्ज करें';
 
   @override
   String get gender => 'लिंग';
@@ -188,13 +188,13 @@ class AppLocalizationsHi extends AppLocalizations {
   String get resetPasswordSuccessButton => 'ठीक है';
 
   @override
-  String get onboardingTitle1 => 'एक स्थायी भविष्य की ओर आंदोलन में शामिल हों। जलवायु परिवर्तन से लड़ने में आप कैसे अंतर ला सकते हैं, सीखें।';
+  String get onboardingTitle1 => 'एक स्थायी भविष्य की ओर आंदोलन में शामिल हों. जलवायु परिवर्तन से लड़ने में आप कैसे अंतर ला सकते हैं.';
 
   @override
-  String get onboardingTitle2 => 'जलवायु परिवर्तन की खबरों, अपडेट्स और टिप्स के बारे में सूचित रहें। पृथ्वी की परवाह करने वाले समुदाय तक पहुँच प्राप्त करें।';
+  String get onboardingTitle2 => 'जलवायु परिवर्तन की खबरों, अपडेट्स और टिप्स के बारे में सूचित रहें. एक ऐसे समुदाय से जुड़ें जो ग्रह की परवाह करता है.';
 
   @override
-  String get onboardingTitle3 => 'आज ही कार्रवाई करें! अपने कार्बन फुटप्रिंट को कम करने और साफ़ पर्यावरण में योगदान करने के तरीके खोजें।';
+  String get onboardingTitle3 => 'आज ही कार्रवाई करें! अपने कार्बन फुटप्रिंट को कम करने और साफ़ पर्यावरण में योगदान करने के तरीके खोजें.';
 
   @override
   String get notifications => 'सूचनाएं';
@@ -221,5 +221,65 @@ class AppLocalizationsHi extends AppLocalizations {
   String get loginWithTwitter => 'ट्विटर से लॉगिन करें';
 
   @override
-  String get ifYouDontHaveAccount => 'अगर आपके पास अकाउंट नहीं है, तो आप ';
+  String get ifYouDontHaveAccount => 'अगर आपका अकाउंट नहीं है, तो आप ';
+
+  @override
+  String get continueWithPhone => 'फ़ोन से जारी रखें';
+
+  @override
+  String get alreadyHaveAcc => 'आपका अकाउंट पहले से है, तो आप ';
+
+  @override
+  String get cont => 'जारी रखें';
+
+  @override
+  String get accountDetails => 'अकाउंट विवरण';
+
+  @override
+  String get account => 'अकाउंट';
+
+  @override
+  String get themeMode => 'थीम मोड';
+
+  @override
+  String get preferences => 'पसंद';
+
+  @override
+  String get policies => 'नीतियां';
+
+  @override
+  String get privacyPolicy => 'गोपनीयता नीति';
+
+  @override
+  String get termAndCondition => 'शर्तें और स्थितियां';
+
+  @override
+  String get about => 'हमारे बारे में';
+
+  @override
+  String get contactUs => 'हमसे संपर्क करें';
+
+  @override
+  String get rateUs => 'हमें रेट करें';
+
+  @override
+  String get openSourceLicense => 'ओपन सोर्स लाइसेंस';
+
+  @override
+  String get madeWithLove => 'भारत में ❤️ से बनाया गया';
+
+  @override
+  String get copyright2024 => 'कॉपीराइट @ 2024 प्रशांत निगम';
+
+  @override
+  String get selectTheme => 'थीम चुनें';
+
+  @override
+  String get light => 'प्रकाश';
+
+  @override
+  String get dark => 'अंधेरा';
+
+  @override
+  String get system => 'सिस्टम';
 }

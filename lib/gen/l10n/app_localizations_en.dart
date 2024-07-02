@@ -222,4 +222,64 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ifYouDontHaveAccount => 'if you dont have account, you can ';
+
+  @override
+  String get continueWithPhone => 'Continue with phone';
+
+  @override
+  String get alreadyHaveAcc => 'Already have account, you can ';
+
+  @override
+  String get cont => 'Continue';
+
+  @override
+  String get accountDetails => 'Account Details';
+
+  @override
+  String get account => 'Account';
+
+  @override
+  String get themeMode => 'Theme mode';
+
+  @override
+  String get preferences => 'Preferences';
+
+  @override
+  String get policies => 'Policies';
+
+  @override
+  String get privacyPolicy => 'Privacy Policy';
+
+  @override
+  String get termAndCondition => 'Terms & Conditions';
+
+  @override
+  String get about => 'About';
+
+  @override
+  String get contactUs => 'Contact Us';
+
+  @override
+  String get rateUs => 'Rate Us';
+
+  @override
+  String get openSourceLicense => 'Open Source Licenses';
+
+  @override
+  String get madeWithLove => 'Made with 💗 in India';
+
+  @override
+  String get copyright2024 => 'Copyright @ 2024 Prashant Nigam';
+
+  @override
+  String get selectTheme => 'Select Theme';
+
+  @override
+  String get light => 'Light';
+
+  @override
+  String get dark => 'Dark';
+
+  @override
+  String get system => 'System';
 }

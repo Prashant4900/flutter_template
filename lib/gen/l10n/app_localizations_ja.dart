@@ -26,40 +26,40 @@ class AppLocalizationsJa extends AppLocalizations {
   String get logout => 'ログアウト';
 
   @override
-  String get email => 'メールアドレス';
+  String get email => 'メール';
 
   @override
-  String get enterEmail => 'メールアドレスを入力してください';
+  String get enterEmail => 'メールを入力';
 
   @override
   String get password => 'パスワード';
 
   @override
-  String get enterPassword => 'パスワードを入力してください';
+  String get enterPassword => 'パスワードを入力';
 
   @override
-  String get confirmPassword => 'パスワード確認';
+  String get confirmPassword => 'パスワードの確認';
 
   @override
-  String get enterConfirmPassword => 'パスワード確認を入力してください';
+  String get enterConfirmPassword => 'パスワードの確認を入力';
 
   @override
   String get name => '名前';
 
   @override
-  String get enterName => '名前を入力してください';
+  String get enterName => '名前を入力';
 
   @override
   String get username => 'ユーザー名';
 
   @override
-  String get enterUsername => 'ユーザー名を入力してください';
+  String get enterUsername => 'ユーザー名を入力';
 
   @override
-  String get phone => 'Phone';
+  String get phone => '電話';
 
   @override
-  String get enterPhone => 'Enter phone';
+  String get enterPhone => '電話番号を入力';
 
   @override
   String get gender => '性別';
@@ -80,7 +80,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get profile => 'プロフィール';
 
   @override
-  String get editProfile => 'プロフィール編集';
+  String get editProfile => 'プロフィールを編集';
 
   @override
   String get edit => '編集';
@@ -95,7 +95,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get delete => '削除';
 
   @override
-  String get deleteAccount => 'アカウント削除';
+  String get deleteAccount => 'アカウントを削除';
 
   @override
   String get deleteAccountConfirm => 'アカウントを削除しますか?';
@@ -155,22 +155,22 @@ class AppLocalizationsJa extends AppLocalizations {
   String get forgotPassword => 'パスワードを忘れた';
 
   @override
-  String get resetPassword => 'パスワードリセット';
+  String get resetPassword => 'パスワードをリセット';
 
   @override
-  String get resetPasswordSuccess => 'パスワードリセットに成功しました';
+  String get resetPasswordSuccess => 'パスワードが正常にリセットされました';
 
   @override
-  String get resetPasswordFailed => 'パスワードリセットに失敗しました';
+  String get resetPasswordFailed => 'パスワードのリセットに失敗しました';
 
   @override
-  String get resetPasswordConfirm => 'パスワードリセットしますか?';
+  String get resetPasswordConfirm => 'パスワードをリセットしますか?';
 
   @override
-  String get resetPasswordSuccessConfirm => 'パスワードがリセットされました。新しいパスワードでログインしてください';
+  String get resetPasswordSuccessConfirm => 'パスワードが正常にリセットされました。新しいパスワードでログインしてください';
 
   @override
-  String get resetPasswordFailedConfirm => 'パスワードリセットに失敗しました。後で再試行してください';
+  String get resetPasswordFailedConfirm => 'パスワードのリセットに失敗しました。後で再試行してください';
 
   @override
   String get resetPasswordSuccessTitle => 'パスワードリセット成功';
@@ -179,22 +179,22 @@ class AppLocalizationsJa extends AppLocalizations {
   String get resetPasswordFailedTitle => 'パスワードリセット失敗';
 
   @override
-  String get resetPasswordSuccessMessage => 'パスワードがリセットされました。新しいパスワードでログインしてください';
+  String get resetPasswordSuccessMessage => 'パスワードが正常にリセットされました。新しいパスワードでログインしてください';
 
   @override
-  String get resetPasswordFailedMessage => 'パスワードリセットに失敗しました。後で再試行してください';
+  String get resetPasswordFailedMessage => 'パスワードのリセットに失敗しました。後で再試行してください';
 
   @override
   String get resetPasswordSuccessButton => 'OK';
 
   @override
-  String get onboardingTitle1 => '持続可能な未来に向けたムーブメントに参加しましょう。気候変動との闘いにどのように差を生み出すことができるかを学びましょう。';
+  String get onboardingTitle1 => '持続可能な未来に向けた運動に参加しましょう。気候変動との闘いにどのように貢献できるかを学びましょう。';
 
   @override
-  String get onboardingTitle2 => '気候変動のニュース、更新、およびヒントについて情報を取得しましょう。地球を心配するコミュニティーにアクセスしましょう。';
+  String get onboardingTitle2 => '気候変動のニュース、更新、およびヒントについて情報を取得しましょう。地球を心配するコミュニティにアクセスしましょう。';
 
   @override
-  String get onboardingTitle3 => '今日から行動しましょう！カーボンフットプリントを削減し、清潔な環境に貢献する方法を発見しましょう。';
+  String get onboardingTitle3 => '今日から行動しましょう！カーボンフットプリントを削減し、清潔な環境に貢献しましょう。';
 
   @override
   String get notifications => '通知';
@@ -209,17 +209,77 @@ class AppLocalizationsJa extends AppLocalizations {
   String get loginWithSocial => 'ソーシャルメディアでログイン';
 
   @override
-  String get loginWithFacebook => 'フェイスブックでログイン';
+  String get loginWithFacebook => 'Facebookでログイン';
 
   @override
-  String get loginWithGoogle => 'グーグルでログイン';
+  String get loginWithGoogle => 'Googleでログイン';
 
   @override
-  String get loginWithApple => 'アップルでログイン';
+  String get loginWithApple => 'Appleでログイン';
 
   @override
-  String get loginWithTwitter => 'ツイッターでログイン';
+  String get loginWithTwitter => 'Twitterでログイン';
 
   @override
-  String get ifYouDontHaveAccount => 'アカウントがなければ ';
+  String get ifYouDontHaveAccount => 'アカウントを持っていない場合は、';
+
+  @override
+  String get continueWithPhone => '電話番号で続行';
+
+  @override
+  String get alreadyHaveAcc => '既にアカウントを持っている場合は、';
+
+  @override
+  String get cont => '続行';
+
+  @override
+  String get accountDetails => 'アカウント詳細';
+
+  @override
+  String get account => 'アカウント';
+
+  @override
+  String get themeMode => 'テーマモード';
+
+  @override
+  String get preferences => 'プリファレンス';
+
+  @override
+  String get policies => 'ポリシー';
+
+  @override
+  String get privacyPolicy => 'プライバシーポリシー';
+
+  @override
+  String get termAndCondition => '利用規約';
+
+  @override
+  String get about => 'について';
+
+  @override
+  String get contactUs => 'お問い合わせ';
+
+  @override
+  String get rateUs => '評価';
+
+  @override
+  String get openSourceLicense => 'オープンソースライセンス';
+
+  @override
+  String get madeWithLove => 'インドで ❤️ つくりました';
+
+  @override
+  String get copyright2024 => 'Copyright @ 2024 プラシャント・ニガム';
+
+  @override
+  String get selectTheme => 'テーマを選択';
+
+  @override
+  String get light => 'ライト';
+
+  @override
+  String get dark => 'ダーク';
+
+  @override
+  String get system => 'システム';
 }

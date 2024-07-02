@@ -68,14 +68,14 @@ class MyLoginScreen extends StatelessWidget {
                   ),
                   verticalMargin20,
                   CustomElevatedButton(
-                    label: context.lang.register,
-                    onPressed: () => context.push(MyRoutes.signUpScreen),
+                    label: context.lang.continueWithPhone,
+                    onPressed: () => context.push(MyRoutes.phoneScreen),
                   ),
                   verticalMargin24,
                   Column(
                     children: [
                       Text(
-                        'Login with social media',
+                        context.lang.loginWithSocial,
                         style: context.bodyMedium,
                       ),
                       verticalMargin8,

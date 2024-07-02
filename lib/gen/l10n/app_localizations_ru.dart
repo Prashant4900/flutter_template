@@ -8,7 +8,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get helloWorld => 'Привет, Мир!';
 
   @override
-  String get appName => 'Пользовательский шаблон Flutter';
+  String get appName => 'Настраиваемый шаблон Flutter';
 
   @override
   String get selectLanguage => 'Выберите язык';
@@ -17,13 +17,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get language => 'Русский';
 
   @override
-  String get login => 'Вход';
+  String get login => 'Войти';
 
   @override
-  String get register => 'Регистрация';
+  String get register => 'Зарегистрироваться';
 
   @override
-  String get logout => 'Выход';
+  String get logout => 'Выйти';
 
   @override
   String get email => 'Электронная почта';
@@ -41,7 +41,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get confirmPassword => 'Подтвердите пароль';
 
   @override
-  String get enterConfirmPassword => 'Введите подтверждение пароля';
+  String get enterConfirmPassword => 'Подтвердите пароль';
 
   @override
   String get name => 'Имя';
@@ -59,19 +59,19 @@ class AppLocalizationsRu extends AppLocalizations {
   String get phone => 'Телефон';
 
   @override
-  String get enterPhone => 'Введите телефон';
+  String get enterPhone => 'Введите номер телефона';
 
   @override
   String get gender => 'Пол';
 
   @override
-  String get male => 'Мужской';
+  String get male => 'Мужчина';
 
   @override
-  String get female => 'Женский';
+  String get female => 'Женщина';
 
   @override
-  String get other => 'Другой';
+  String get other => 'Другое';
 
   @override
   String get dob => 'Дата рождения';
@@ -98,7 +98,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get deleteAccount => 'Удалить аккаунт';
 
   @override
-  String get deleteAccountConfirm => 'Вы уверены, что хотите удалить аккаунт?';
+  String get deleteAccountConfirm => 'Вы уверены, что хотите удалить свой аккаунт?';
 
   @override
   String get next => 'Далее';
@@ -119,7 +119,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get yes => 'Да';
 
   @override
-  String get ok => 'Ок';
+  String get ok => 'OK';
 
   @override
   String get error => 'Ошибка';
@@ -128,13 +128,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get success => 'Успех';
 
   @override
-  String get failed => 'Неудача';
+  String get failed => 'Не удалось';
 
   @override
   String get loading => 'Загрузка';
 
   @override
-  String get noInternet => 'Нет интернет-соединения';
+  String get noInternet => 'Нет подключения к Интернету';
 
   @override
   String get retry => 'Повторить';
@@ -143,7 +143,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get retrying => 'Повторная попытка';
 
   @override
-  String get getStarted => 'Начать';
+  String get getStarted => 'Начать работу';
 
   @override
   String get welcome => 'Добро пожаловать';
@@ -152,7 +152,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get welcomeBack => 'Добро пожаловать обратно';
 
   @override
-  String get forgotPassword => 'Забыли пароль';
+  String get forgotPassword => 'Забыли пароль?';
 
   @override
   String get resetPassword => 'Сбросить пароль';
@@ -161,40 +161,40 @@ class AppLocalizationsRu extends AppLocalizations {
   String get resetPasswordSuccess => 'Пароль сброшен успешно';
 
   @override
-  String get resetPasswordFailed => 'Сброс пароля не удался';
+  String get resetPasswordFailed => 'Не удалось сбросить пароль';
 
   @override
-  String get resetPasswordConfirm => 'Вы уверены, что хотите сбросить пароль?';
+  String get resetPasswordConfirm => 'Вы уверены, что хотите сбросить свой пароль?';
 
   @override
-  String get resetPasswordSuccessConfirm => 'Пароль сброшен успешно. Войдите с новым паролем';
+  String get resetPasswordSuccessConfirm => 'Ваш пароль был сброшен. Пожалуйста, войдите с новым паролем';
 
   @override
-  String get resetPasswordFailedConfirm => 'Сброс пароля не удался. Попробуйте снова позже';
+  String get resetPasswordFailedConfirm => 'Не удалось сбросить пароль. Пожалуйста, попробуйте снова позже';
 
   @override
-  String get resetPasswordSuccessTitle => 'Сброс пароля успешен';
+  String get resetPasswordSuccessTitle => 'Успешное сброс пароля';
 
   @override
-  String get resetPasswordFailedTitle => 'Сброс пароля не удался';
+  String get resetPasswordFailedTitle => 'Неудачное сброс пароля';
 
   @override
-  String get resetPasswordSuccessMessage => 'Пароль сброшен успешно. Войдите с новым паролем';
+  String get resetPasswordSuccessMessage => 'Ваш пароль был сброшен. Пожалуйста, войдите с новым паролем';
 
   @override
-  String get resetPasswordFailedMessage => 'Сброс пароля не удался. Попробуйте снова позже';
+  String get resetPasswordFailedMessage => 'Не удалось сбросить пароль. Пожалуйста, попробуйте снова позже';
 
   @override
-  String get resetPasswordSuccessButton => 'Ок';
+  String get resetPasswordSuccessButton => 'OK';
 
   @override
-  String get onboardingTitle1 => 'Присоединяйтесь к движению за устойчивое будущее. Узнайте, как вы можете сделать разницу в борьбе с изменением климата.';
+  String get onboardingTitle1 => 'Присоединяйтесь к движению в направлении устойчивого будущего. Узнайте, как вы можете внести свой вклад в борьбу с изменением климата.';
 
   @override
-  String get onboardingTitle2 => 'Оставайтесь в курсе новостей, обновлений и советов о изменении климата. Получите доступ к сообществу, которое заботится о планете.';
+  String get onboardingTitle2 => 'Будьтев курсе новостей, обновлений и советов о изменении климата. Получите доступ к сообществу, которое заботится о планете.';
 
   @override
-  String get onboardingTitle3 => 'Примите меры сегодня! Откройте для себя способы уменьшить свой углеродный след и внести вклад в чистую среду.';
+  String get onboardingTitle3 => 'Примите меры сегодня! Узнайте, как уменьшить свой углеродный след и внести свой вклад в чистую среду.';
 
   @override
   String get notifications => 'Уведомления';
@@ -221,5 +221,65 @@ class AppLocalizationsRu extends AppLocalizations {
   String get loginWithTwitter => 'Войти с помощью Twitter';
 
   @override
-  String get ifYouDontHaveAccount => 'если у вас нет аккаунта, вы можете ';
+  String get ifYouDontHaveAccount => 'если у вас нет аккаунта, вы можете';
+
+  @override
+  String get continueWithPhone => 'Продолжить с помощью телефона';
+
+  @override
+  String get alreadyHaveAcc => 'У вас уже есть аккаунт, вы можете';
+
+  @override
+  String get cont => 'Продолжить';
+
+  @override
+  String get accountDetails => 'Данные аккаунта';
+
+  @override
+  String get account => 'Аккаунт';
+
+  @override
+  String get themeMode => 'Режим темы';
+
+  @override
+  String get preferences => 'Предпочтения';
+
+  @override
+  String get policies => 'Политики';
+
+  @override
+  String get privacyPolicy => 'Политика конфиденциальности';
+
+  @override
+  String get termAndCondition => 'Условия и положения';
+
+  @override
+  String get about => 'О нас';
+
+  @override
+  String get contactUs => 'Свяжитесь с нами';
+
+  @override
+  String get rateUs => 'Оцените нас';
+
+  @override
+  String get openSourceLicense => 'Лицензии на открытое программное обеспечение';
+
+  @override
+  String get madeWithLove => 'Сделано с ❤️ в Индии';
+
+  @override
+  String get copyright2024 => 'Copyright @ 2024 Прашант Нигам';
+
+  @override
+  String get selectTheme => 'Выберите тему';
+
+  @override
+  String get light => 'Светлая';
+
+  @override
+  String get dark => 'Темная';
+
+  @override
+  String get system => 'Системная';
 }

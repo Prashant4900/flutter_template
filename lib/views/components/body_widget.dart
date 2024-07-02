@@ -17,7 +17,7 @@ class BodyWidget extends StatelessWidget {
       children: [
         SafeArea(
           child: Padding(
-            padding: horizontalPadding16 + topPadding12,
+            padding: horizontalPadding16,
             child: child,
           ),
         ),

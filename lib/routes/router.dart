@@ -1,7 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_template/views/screens/account/account_details_screen.dart';
 import 'package:flutter_template/views/screens/auth/forgot_password_screen.dart';
 import 'package:flutter_template/views/screens/auth/login_screen.dart';
+import 'package:flutter_template/views/screens/auth/otp_screen.dart';
+import 'package:flutter_template/views/screens/auth/phone_screen.dart';
 import 'package:flutter_template/views/screens/auth/signup_screen.dart';
 import 'package:flutter_template/views/screens/dashboard.dart';
 import 'package:flutter_template/views/screens/home/home_screen.dart';
@@ -21,14 +24,17 @@ class MyRoutes {
   static const onboardingScreen = '/onboarding';
   static const logInScreen = '/login';
   static const signUpScreen = '/signUp';
+  static const phoneScreen = '/phone';
+  static const otpScreen = '/otp';
   static const forgotPasswordScreen = '/forgotPassword';
   static const languageScreen = '/language';
   static const notificationScreen = '/notification';
   static const themeScreen = '/theme';
+  static const accountDetailScreen = '/accountDetail';
 }
 
 final routerConfig = GoRouter(
-  initialLocation: MyRoutes.home,
+  initialLocation: MyRoutes.languageScreen,
   navigatorKey: _rootNavigatorKey,
   debugLogDiagnostics: kDebugMode,
   routes: [
@@ -36,6 +42,16 @@ final routerConfig = GoRouter(
       parentNavigatorKey: _rootNavigatorKey,
       path: MyRoutes.onboardingScreen,
       builder: (context, state) => const MyOnboardingScreen(),
+    ),
+    GoRoute(
+      parentNavigatorKey: _rootNavigatorKey,
+      path: MyRoutes.phoneScreen,
+      builder: (context, state) => const MyPhoneScreen(),
+    ),
+    GoRoute(
+      parentNavigatorKey: _rootNavigatorKey,
+      path: MyRoutes.otpScreen,
+      builder: (context, state) => const MyOtpScreen(),
     ),
     GoRoute(
       parentNavigatorKey: _rootNavigatorKey,
@@ -67,6 +83,11 @@ final routerConfig = GoRouter(
       path: MyRoutes.themeScreen,
       builder: (context, state) => const MyThemeScreen(),
     ),
+    GoRoute(
+      parentNavigatorKey: _rootNavigatorKey,
+      path: MyRoutes.accountDetailScreen,
+      builder: (context, state) => const MyAccountDetailScreen(),
+    ),
     ShellRoute(
       navigatorKey: _shellNavigatorKey,
       builder: (context, state, child) => MyDashboard(child: child),
@@ -86,4 +107,7 @@ final routerConfig = GoRouter(
       ],
     ),
   ],
+  redirect: (context, state) {
+    return null;
+  },
 );

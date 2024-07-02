@@ -66,7 +66,11 @@ class _MyOnboardingScreenState extends State<MyOnboardingScreen> {
               children: [
                 const Spacer(),
                 SizedBox(
-                  height: 440,
+                  height: (MediaQuery.of(context).size.height /
+                              MediaQuery.of(context).size.width) >=
+                          1.85
+                      ? 440
+                      : 340,
                   child: PageView(
                     controller: _controller,
                     onPageChanged: (int page) =>
@@ -124,6 +128,7 @@ class _MyOnboardingScreenState extends State<MyOnboardingScreen> {
                     },
                   ),
                 ),
+                verticalMargin20,
               ],
             ),
           ),
@@ -151,8 +156,17 @@ class OnboardingPage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Assets.images.onboarding.image(
-          height: 320,
+          height: (MediaQuery.of(context).size.height /
+                      MediaQuery.of(context).size.width) >=
+                  1.85
+              ? 320
+              : 140,
           fit: BoxFit.fill,
+        ),
+        Text(
+          (MediaQuery.of(context).size.height /
+                  MediaQuery.of(context).size.width)
+              .toString(),
         ),
         verticalMargin24,
         Padding(

@@ -1,5 +1,6 @@
 import 'dart:developer';
 
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppPref {
@@ -102,20 +103,42 @@ class AppPrefHelper {
     return language;
   }
 
-  // static Future<bool> setTheme(int themeCode) async {
-  //   return AppPref.save(AppPrefKey.theme, themeCode);
-  // }
+  static Future<bool> setTheme(ThemeMode themeMode) async {
+    return AppPref.save(AppPrefKey.theme, getThemeCode(themeMode));
+  }
 
-  // static int getTheme() {
-  //   final themeCode =
-  //       AppPref.get(AppPrefKey.theme, getThemeCode(AppTheme.system)) as int;
-  //   log('theme: ${getAppTheme(themeCode)}');
-  //   return themeCode;
-  // }
+  static ThemeMode getTheme() {
+    final themeCode =
+        AppPref.get(AppPrefKey.theme, getThemeCode(ThemeMode.system)) as int;
+    log('theme: ${getThemeMode(themeCode)}');
+    return getThemeMode(themeCode);
+  }
 
   static Future<void> signOut() async {
     await AppPref.remove(AppPrefKey.uid);
     await AppPref.remove(AppPrefKey.username);
     await AppPref.remove(AppPrefKey.email);
+  }
+}
+
+int getThemeCode(ThemeMode mode) {
+  switch (mode) {
+    case ThemeMode.system:
+      return 0;
+    case ThemeMode.light:
+      return 1;
+    case ThemeMode.dark:
+      return -1;
+  }
+}
+
+ThemeMode getThemeMode(int code) {
+  switch (code) {
+    case 0:
+      return ThemeMode.system;
+    case 1:
+      return ThemeMode.light;
+    default:
+      return ThemeMode.dark;
   }
 }

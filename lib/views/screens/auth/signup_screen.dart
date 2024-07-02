@@ -58,7 +58,7 @@ class MySignUpScreen extends StatelessWidget {
               text: TextSpan(
                 style: context.bodySmall,
                 children: [
-                  const TextSpan(text: 'Already have account, you can '),
+                  TextSpan(text: context.lang.alreadyHaveAcc),
                   TextSpan(
                     text: context.lang.login,
                     style: context.labelSmall?.copyWith(

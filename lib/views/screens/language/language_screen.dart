@@ -52,7 +52,9 @@ class MyLanguageScreen extends StatelessWidget {
                       color: selectedColor,
                     ),
                   ),
-                  trailing: Icon(Icons.check, color: selectedColor),
+                  trailing: provider.language == language.code
+                      ? Icon(Icons.check, color: selectedColor)
+                      : null,
                 );
               },
               separatorBuilder: (_, __) => const Divider(height: 0),
@@ -62,7 +64,7 @@ class MyLanguageScreen extends StatelessWidget {
       ),
       bottomNavigationBar: SafeArea(
         child: Padding(
-          padding: horizontalPadding16 + topPadding12,
+          padding: horizontalPadding16 + topPadding12 + bottomPadding16,
           child: CustomElevatedButton(
             label: context.lang.next,
             onPressed: () => context.pushReplacement(MyRoutes.onboardingScreen),

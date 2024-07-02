@@ -5,10 +5,10 @@ class AppLocalizationsEs extends AppLocalizations {
   AppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
-  String get helloWorld => '¡Hola, Mundo!';
+  String get helloWorld => 'Hola, mundo!';
 
   @override
-  String get appName => 'Plantilla de Flutter Personalizada';
+  String get appName => 'Plantilla de Flutter personalizada';
 
   @override
   String get selectLanguage => 'Seleccione idioma';
@@ -41,7 +41,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get confirmPassword => 'Confirmar contraseña';
 
   @override
-  String get enterConfirmPassword => 'Ingrese confirmar contraseña';
+  String get enterConfirmPassword => 'Ingrese confirmación de contraseña';
 
   @override
   String get name => 'Nombre';
@@ -98,7 +98,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get deleteAccount => 'Eliminar cuenta';
 
   @override
-  String get deleteAccountConfirm => '¿Estás seguro de eliminar tu cuenta?';
+  String get deleteAccountConfirm => '¿Está seguro de que desea eliminar su cuenta?';
 
   @override
   String get next => 'Siguiente';
@@ -149,7 +149,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String get welcome => 'Bienvenido';
 
   @override
-  String get welcomeBack => 'Bienvenido de nuevo';
+  String get welcomeBack => 'Bienvenido de vuelta';
 
   @override
   String get forgotPassword => 'Olvidé mi contraseña';
@@ -158,31 +158,31 @@ class AppLocalizationsEs extends AppLocalizations {
   String get resetPassword => 'Restablecer contraseña';
 
   @override
-  String get resetPasswordSuccess => 'Se restableció la contraseña con éxito';
+  String get resetPasswordSuccess => 'Contraseña restablecida con éxito';
 
   @override
-  String get resetPasswordFailed => 'Falló el restablecimiento de la contraseña';
+  String get resetPasswordFailed => 'No se pudo restablecer la contraseña';
 
   @override
-  String get resetPasswordConfirm => '¿Estás seguro de restablecer tu contraseña?';
+  String get resetPasswordConfirm => '¿Está seguro de que desea restablecer su contraseña?';
 
   @override
-  String get resetPasswordSuccessConfirm => 'Se restableció la contraseña. Por favor, inicia sesión con tu nueva contraseña';
+  String get resetPasswordSuccessConfirm => 'Su contraseña ha sido restablecida. Por favor, inicie sesión con su nueva contraseña';
 
   @override
-  String get resetPasswordFailedConfirm => 'Falló el restablecimiento de la contraseña. Por favor, inténtalo de nuevo más tarde';
+  String get resetPasswordFailedConfirm => 'No se pudo restablecer la contraseña. Por favor, inténtelo de nuevo más tarde';
 
   @override
-  String get resetPasswordSuccessTitle => 'Restablecimiento de contraseña exitoso';
+  String get resetPasswordSuccessTitle => 'Restablecer contraseña exitoso';
 
   @override
-  String get resetPasswordFailedTitle => 'Falló el restablecimiento de la contraseña';
+  String get resetPasswordFailedTitle => 'Restablecer contraseña fallido';
 
   @override
-  String get resetPasswordSuccessMessage => 'Se restableció la contraseña. Por favor, inicia sesión con tu nueva contraseña';
+  String get resetPasswordSuccessMessage => 'Su contraseña ha sido restablecida. Por favor, inicie sesión con su nueva contraseña';
 
   @override
-  String get resetPasswordFailedMessage => 'Falló el restablecimiento de la contraseña. Por favor, inténtalo de nuevo más tarde';
+  String get resetPasswordFailedMessage => 'No se pudo restablecer la contraseña. Por favor, inténtelo de nuevo más tarde';
 
   @override
   String get resetPasswordSuccessButton => 'Aceptar';
@@ -191,10 +191,10 @@ class AppLocalizationsEs extends AppLocalizations {
   String get onboardingTitle1 => 'Únete al movimiento hacia un futuro sostenible. Aprende cómo puedes hacer una diferencia en la lucha contra el cambio climático.';
 
   @override
-  String get onboardingTitle2 => 'Mantente informado sobre noticias, actualizaciones y consejos sobre el cambio climático. Accede a una comunidad que se preocupa por el planeta.';
+  String get onboardingTitle2 => 'Mantente informado sobre noticias, actualizaciones y consejos sobre el cambio climático. Obtenga acceso a una comunidad que se preocupa por el planeta.';
 
   @override
-  String get onboardingTitle3 => 'Actúa hoy mismo. Descubre formas de reducir tu huella de carbono y contribuir a un medio ambiente más limpio.';
+  String get onboardingTitle3 => 'Toma medidas hoy mismo. Descubre cómo reducir tu huella de carbono y contribuir a un entorno más limpio.';
 
   @override
   String get notifications => 'Notificaciones';
@@ -222,4 +222,64 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get ifYouDontHaveAccount => 'si no tienes cuenta, puedes ';
+
+  @override
+  String get continueWithPhone => 'Continuar con teléfono';
+
+  @override
+  String get alreadyHaveAcc => 'Ya tienes cuenta, puedes ';
+
+  @override
+  String get cont => 'Continuar';
+
+  @override
+  String get accountDetails => 'Detalles de la cuenta';
+
+  @override
+  String get account => 'Cuenta';
+
+  @override
+  String get themeMode => 'Modo de tema';
+
+  @override
+  String get preferences => 'Preferencias';
+
+  @override
+  String get policies => 'Políticas';
+
+  @override
+  String get privacyPolicy => 'Política de privacidad';
+
+  @override
+  String get termAndCondition => 'Términos y condiciones';
+
+  @override
+  String get about => 'Acerca de';
+
+  @override
+  String get contactUs => 'Contáctanos';
+
+  @override
+  String get rateUs => 'Calificanos';
+
+  @override
+  String get openSourceLicense => 'Licencias de código abierto';
+
+  @override
+  String get madeWithLove => 'Hecho con ❤️ en India';
+
+  @override
+  String get copyright2024 => 'Derechos de autor @ 2024 Prashant Nigam';
+
+  @override
+  String get selectTheme => 'Seleccionar tema';
+
+  @override
+  String get light => 'Luz';
+
+  @override
+  String get dark => 'Oscuro';
+
+  @override
+  String get system => 'Sistema';
 }

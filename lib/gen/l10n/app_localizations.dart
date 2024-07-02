@@ -540,6 +540,126 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'if you dont have account, you can '**
   String get ifYouDontHaveAccount;
+
+  /// No description provided for @continueWithPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue with phone'**
+  String get continueWithPhone;
+
+  /// No description provided for @alreadyHaveAcc.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have account, you can '**
+  String get alreadyHaveAcc;
+
+  /// No description provided for @cont.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get cont;
+
+  /// No description provided for @accountDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Details'**
+  String get accountDetails;
+
+  /// No description provided for @account.
+  ///
+  /// In en, this message translates to:
+  /// **'Account'**
+  String get account;
+
+  /// No description provided for @themeMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme mode'**
+  String get themeMode;
+
+  /// No description provided for @preferences.
+  ///
+  /// In en, this message translates to:
+  /// **'Preferences'**
+  String get preferences;
+
+  /// No description provided for @policies.
+  ///
+  /// In en, this message translates to:
+  /// **'Policies'**
+  String get policies;
+
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicy;
+
+  /// No description provided for @termAndCondition.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms & Conditions'**
+  String get termAndCondition;
+
+  /// No description provided for @about.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get about;
+
+  /// No description provided for @contactUs.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact Us'**
+  String get contactUs;
+
+  /// No description provided for @rateUs.
+  ///
+  /// In en, this message translates to:
+  /// **'Rate Us'**
+  String get rateUs;
+
+  /// No description provided for @openSourceLicense.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Source Licenses'**
+  String get openSourceLicense;
+
+  /// No description provided for @madeWithLove.
+  ///
+  /// In en, this message translates to:
+  /// **'Made with 💗 in India'**
+  String get madeWithLove;
+
+  /// No description provided for @copyright2024.
+  ///
+  /// In en, this message translates to:
+  /// **'Copyright @ 2024 Prashant Nigam'**
+  String get copyright2024;
+
+  /// No description provided for @selectTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Theme'**
+  String get selectTheme;
+
+  /// No description provided for @light.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get light;
+
+  /// No description provided for @dark.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get dark;
+
+  /// No description provided for @system.
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get system;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

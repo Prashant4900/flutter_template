@@ -29,46 +29,46 @@ class AppLocalizationsKo extends AppLocalizations {
   String get email => '이메일';
 
   @override
-  String get enterEmail => '이메일을 입력하세요';
+  String get enterEmail => '이메일 입력';
 
   @override
   String get password => '비밀번호';
 
   @override
-  String get enterPassword => '암호를 입력';
+  String get enterPassword => '비밀번호 입력';
 
   @override
   String get confirmPassword => '비밀번호 확인';
 
   @override
-  String get enterConfirmPassword => '비밀번호 확인을 입력하세요';
+  String get enterConfirmPassword => '비밀번호 확인 입력';
 
   @override
   String get name => '이름';
 
   @override
-  String get enterName => '이름을 입력하시오';
+  String get enterName => '이름 입력';
 
   @override
   String get username => '사용자 이름';
 
   @override
-  String get enterUsername => '사용자 이름을 입력하세요';
+  String get enterUsername => '사용자 이름 입력';
 
   @override
-  String get phone => '전화';
+  String get phone => '전화번호';
 
   @override
-  String get enterPhone => '';
+  String get enterPhone => '전화번호 입력';
 
   @override
   String get gender => '성별';
 
   @override
-  String get male => '남자';
+  String get male => '남성';
 
   @override
-  String get female => '여자';
+  String get female => '여성';
 
   @override
   String get other => '기타';
@@ -98,7 +98,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get deleteAccount => '계정 삭제';
 
   @override
-  String get deleteAccountConfirm => '계정을 삭제하시겠습니까?';
+  String get deleteAccountConfirm => '정말로 계정을 삭제하시겠습니까?';
 
   @override
   String get next => '다음';
@@ -107,7 +107,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get back => '뒤로';
 
   @override
-  String get skip => '스킵';
+  String get skip => '건너뛰기';
 
   @override
   String get finish => '완료';
@@ -122,7 +122,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get ok => '확인';
 
   @override
-  String get error => '에러';
+  String get error => '오류';
 
   @override
   String get success => '성공';
@@ -134,7 +134,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get loading => '로딩 중';
 
   @override
-  String get noInternet => '인터넷 연결이 없습니다';
+  String get noInternet => '인터넷 연결 없음';
 
   @override
   String get retry => '재시도';
@@ -149,28 +149,28 @@ class AppLocalizationsKo extends AppLocalizations {
   String get welcome => '환영합니다';
 
   @override
-  String get welcomeBack => '환영합니다 다시';
+  String get welcomeBack => '다시 환영합니다';
 
   @override
-  String get forgotPassword => '비밀번호를 잊었습니다';
+  String get forgotPassword => '비밀번호忘れ';
 
   @override
   String get resetPassword => '비밀번호 초기화';
 
   @override
-  String get resetPasswordSuccess => '비밀번호 초기화에 성공했습니다';
+  String get resetPasswordSuccess => '비밀번호 초기화 성공';
 
   @override
-  String get resetPasswordFailed => '비밀번호 초기화에 실패했습니다';
+  String get resetPasswordFailed => '비밀번호 초기화 실패';
 
   @override
-  String get resetPasswordConfirm => '비밀번호를 초기화하시겠습니까?';
+  String get resetPasswordConfirm => '비밀번호 초기화를 정말로 하시겠습니까?';
 
   @override
   String get resetPasswordSuccessConfirm => '비밀번호가 초기화되었습니다. 새로운 비밀번호로 로그인하세요';
 
   @override
-  String get resetPasswordFailedConfirm => '비밀번호 초기화에 실패했습니다. 나중에 다시 시도하세요';
+  String get resetPasswordFailedConfirm => '비밀번호 초기화 실패. 나중에 다시 시도하세요';
 
   @override
   String get resetPasswordSuccessTitle => '비밀번호 초기화 성공';
@@ -182,19 +182,19 @@ class AppLocalizationsKo extends AppLocalizations {
   String get resetPasswordSuccessMessage => '비밀번호가 초기화되었습니다. 새로운 비밀번호로 로그인하세요';
 
   @override
-  String get resetPasswordFailedMessage => '비밀번호 초기화에 실패했습니다. 나중에 다시 시도하세요';
+  String get resetPasswordFailedMessage => '비밀번호 초기화 실패. 나중에 다시 시도하세요';
 
   @override
   String get resetPasswordSuccessButton => '확인';
 
   @override
-  String get onboardingTitle1 => '지속 가능한 미래를 향한 운동에 참여하세요. 기후 변화와의 싸움에서 어떻게 차이를 만들 수 있는지 학습하세요.';
+  String get onboardingTitle1 => '지속 가능한 미래를 향한 운동에 참여하세요. 기후 변화에 대한 정보를 얻고 행동하세요.';
 
   @override
-  String get onboardingTitle2 => '기후 변화 뉴스, 업데이트, 팁에 대해 정보를 얻으세요. 지구를 생각하는 커뮤니티에 액세스하세요.';
+  String get onboardingTitle2 => '기후 변화 뉴스, 업데이트, 팁을 확인하세요. 지구를 사랑하는 커뮤니티에 가입하세요.';
 
   @override
-  String get onboardingTitle3 => '오늘부터 행동하세요! 카본 푸트프린트를 줄이고 깨끗한 환경에 기여하는 방법을 찾아보세요.';
+  String get onboardingTitle3 => '오늘 행동하세요! 탄소 발자국을 줄이는 방법을 찾아보세요.';
 
   @override
   String get notifications => '알림';
@@ -221,5 +221,65 @@ class AppLocalizationsKo extends AppLocalizations {
   String get loginWithTwitter => '트위터로 로그인';
 
   @override
-  String get ifYouDontHaveAccount => '계정이 없으면,';
+  String get ifYouDontHaveAccount => '계정이 없으면, ';
+
+  @override
+  String get continueWithPhone => '전화번호로 계속';
+
+  @override
+  String get alreadyHaveAcc => '계정이 이미 있으면, ';
+
+  @override
+  String get cont => '계속';
+
+  @override
+  String get accountDetails => '계정 정보';
+
+  @override
+  String get account => '계정';
+
+  @override
+  String get themeMode => '테마 모드';
+
+  @override
+  String get preferences => '선호도';
+
+  @override
+  String get policies => '정책';
+
+  @override
+  String get privacyPolicy => '개인 정보 보호 정책';
+
+  @override
+  String get termAndCondition => '이용 약관';
+
+  @override
+  String get about => '关于';
+
+  @override
+  String get contactUs => '문의하기';
+
+  @override
+  String get rateUs => '우리 평가하기';
+
+  @override
+  String get openSourceLicense => '오픈 소스 라이선스';
+
+  @override
+  String get madeWithLove => '인도에서 ❤️로 만들어졌습니다';
+
+  @override
+  String get copyright2024 => '저작권 ⓒ 2024 Prashant Nigam';
+
+  @override
+  String get selectTheme => '테마 선택';
+
+  @override
+  String get light => '밝은';
+
+  @override
+  String get dark => '어두운';
+
+  @override
+  String get system => '시스템';
 }
