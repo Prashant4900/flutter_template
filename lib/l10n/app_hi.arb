@@ -1,0 +1,118 @@
+{
+    "@@locale": "hi",
+    "helloWorld": "नमस्ते, दुनिया! हिंदी",
+    "@helloWorld": {
+        "type": "text",
+        "description": "A hello world message"
+    },
+    "home": "होम",
+    "@home": {
+        "type": "text",
+        "description": "Home page"
+    },
+    "homeScreen": "होम स्क्रीन",
+    "@homeScreen": {
+        "type": "text",
+        "description": "Home Screen"
+    },
+    "settings": "सेटिंग्स",
+    "@settings": {
+        "type": "text",
+        "description": "Settings page"
+    },
+    "settingScreen": "सेटिंग स्क्रीन",
+    "@settingScreen": {
+        "type": "text",
+        "description": "Setting Screen"
+    },
+    "displayLanguage": "प्रदर्शन भाषा",
+    "@displayLanguage": {
+        "type": "text",
+        "description": "Display Language"
+    },
+    "selectLanguage": "भाषा चुनें",
+    "@selectLanguage": {
+        "type": "text",
+        "description": "Select Language"
+    },
+    "selectTheme": "थीम चुनें",
+    "@selectTheme": {
+        "type": "text",
+        "description": "Select Theme"
+    },
+    "themeMode": "थीम मोड",
+    "@themeMode": {
+        "type": "text",
+        "description": "Theme Mode"
+    },
+    "light": "लाइट",
+    "@light": {
+        "type": "text",
+        "description": "Light"
+    },
+    "lightSubTitle": "लाइट थीम का उपयोग करें",
+    "@lightSubTitle": {
+        "type": "text",
+        "description": "Use Light theme"
+    },
+    "dark": "डार्क",
+    "@dark": {
+        "type": "text",
+        "description": "Dark"
+    },
+    "darkSubTitle": "डार्क थीम का उपयोग करें",
+    "@darkSubTitle": {
+        "type": "text",
+        "description": "Use Dark theme"
+    },
+    "systemDefault": "सिस्टम डिफ़ॉल्ट",
+    "@systemDefault": {
+        "type": "text",
+        "description": "System Default"
+    },
+    "systemDefaultSubTitle": "सिस्टम डिफ़ॉल्ट थीम का उपयोग करें",
+    "@systemDefaultSubTitle": {
+        "type": "text",
+        "description": "Use system default theme"
+    },
+    "dynamicColor": "डायनामिक कलर",
+    "@dynamicColor": {
+        "type": "text",
+        "description": "Dynamic Color"
+    },
+    "dynamicColorSubTitle": "डायनामिक अनुकूली रंग का उपयोग करें",
+    "@dynamicColorSubTitle": {
+        "type": "text",
+        "description": "Use dynamic adaptive color"
+    },
+    "appearance": "दिखावट",
+    "@appearance": {
+        "type": "text",
+        "description": "Appearance"
+    },
+    "about": "के बारे में",
+    "@about": {
+        "type": "text",
+        "description": "About"
+    },
+    "privacyPolicy": "गोपनीयता नीति",
+    "@privacyPolicy": {
+        "type": "text",
+        "description": "Privacy Policy"
+    },
+    "termsOfService": "सेवा की शर्तें",
+    "@termsOfService": {
+        "type": "text",
+        "description": "Terms of Service"
+    },
+    "openSourceLicenses": "ओपन सोर्स लाइसेंस",
+    "@openSourceLicenses": {
+        "type": "text",
+        "description": "Open Source Licenses"
+    },
+    "version": "वर्शन",
+    "@version": {
+        "type": "text",
+        "description": "Version"
+    }
+}

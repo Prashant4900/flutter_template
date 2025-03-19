@@ -1,0 +1,118 @@
+{
+    "@@locale": "es",
+    "helloWorld": "¡Hola, Mundo! Español",
+    "@helloWorld": {
+        "type": "text",
+        "description": "A hello world message"
+    },
+    "home": "Inicio",
+    "@home": {
+        "type": "text",
+        "description": "Home page"
+    },
+    "homeScreen": "Pantalla de Inicio",
+    "@homeScreen": {
+        "type": "text",
+        "description": "Home Screen"
+    },
+    "settings": "Ajustes",
+    "@settings": {
+        "type": "text",
+        "description": "Settings page"
+    },
+    "settingScreen": "Pantalla de Ajustes",
+    "@settingScreen": {
+        "type": "text",
+        "description": "Setting Screen"
+    },
+    "displayLanguage": "Idioma de Visualización",
+    "@displayLanguage": {
+        "type": "text",
+        "description": "Display Language"
+    },
+    "selectLanguage": "Seleccionar Idioma",
+    "@selectLanguage": {
+        "type": "text",
+        "description": "Select Language"
+    },
+    "selectTheme": "Seleccionar Tema",
+    "@selectTheme": {
+        "type": "text",
+        "description": "Select Theme"
+    },
+    "themeMode": "Modo de Tema",
+    "@themeMode": {
+        "type": "text",
+        "description": "Theme Mode"
+    },
+    "light": "Claro",
+    "@light": {
+        "type": "text",
+        "description": "Light"
+    },
+    "lightSubTitle": "Usar tema claro",
+    "@lightSubTitle": {
+        "type": "text",
+        "description": "Use Light theme"
+    },
+    "dark": "Oscuro",
+    "@dark": {
+        "type": "text",
+        "description": "Dark"
+    },
+    "darkSubTitle": "Usar tema oscuro",
+    "@darkSubTitle": {
+        "type": "text",
+        "description": "Use Dark theme"
+    },
+    "systemDefault": "Predeterminado del Sistema",
+    "@systemDefault": {
+        "type": "text",
+        "description": "System Default"
+    },
+    "systemDefaultSubTitle": "Usar tema predeterminado del sistema",
+    "@systemDefaultSubTitle": {
+        "type": "text",
+        "description": "Use system default theme"
+    },
+    "dynamicColor": "Color Dinámico",
+    "@dynamicColor": {
+        "type": "text",
+        "description": "Dynamic Color"
+    },
+    "dynamicColorSubTitle": "Usar color adaptativo dinámico",
+    "@dynamicColorSubTitle": {
+        "type": "text",
+        "description": "Use dynamic adaptive color"
+    },
+    "appearance": "Apariencia",
+    "@appearance": {
+        "type": "text",
+        "description": "Appearance"
+    },
+    "about": "Acerca de",
+    "@about": {
+        "type": "text",
+        "description": "About"
+    },
+    "privacyPolicy": "Política de Privacidad",
+    "@privacyPolicy": {
+        "type": "text",
+        "description": "Privacy Policy"
+    },
+    "termsOfService": "Términos de Servicio",
+    "@termsOfService": {
+        "type": "text",
+        "description": "Terms of Service"
+    },
+    "openSourceLicenses": "Licencias de Código Abierto",
+    "@openSourceLicenses": {
+        "type": "text",
+        "description": "Open Source Licenses"
+    },
+    "version": "Versión",
+    "@version": {
+        "type": "text",
+        "description": "Version"
+    }
+}

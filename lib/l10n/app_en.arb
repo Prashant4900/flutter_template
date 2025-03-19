@@ -1,0 +1,118 @@
+{
+    "@@locale": "en",
+    "helloWorld": "Hello, World! English",
+    "@helloWorld": {
+        "type": "text",
+        "description": "A hello world message"
+    },
+    "home": "Home",
+    "@home": {
+        "type": "text",
+        "description": "Home page"
+    },
+    "homeScreen": "Home Screen",
+    "@homeScreen": {
+        "type": "text",
+        "description": "Home Screen"
+    },
+    "settings": "Settings",
+    "@settings": {
+        "type": "text",
+        "description": "Settings page"
+    },
+    "settingScreen": "Setting Screen",
+    "@settingScreen": {
+        "type": "text",
+        "description": "Setting Screen"
+    },
+    "displayLanguage": "Display Language",
+    "@displayLanguage": {
+        "type": "text",
+        "description": "Display Language"
+    },
+    "selectLanguage": "Select Language",
+    "@selectLanguage": {
+        "type": "text",
+        "description": "Select Language"
+    },
+    "selectTheme": "Select Theme",
+    "@selectTheme": {
+        "type": "text",
+        "description": "Select Theme"
+    },
+    "themeMode": "Theme Mode",
+    "@themeMode": {
+        "type": "text",
+        "description": "Theme Mode"
+    },
+    "light": "Light",
+    "@light": {
+        "type": "text",
+        "description": "Light"
+    },
+    "lightSubTitle": "Use Light theme",
+    "@lightSubTitle": {
+        "type": "text",
+        "description": "Use Light theme"
+    },
+    "dark": "Dark",
+    "@dark": {
+        "type": "text",
+        "description": "Dark"
+    },
+    "darkSubTitle": "Use Dark theme",
+    "@darkSubTitle": {
+        "type": "text",
+        "description": "Use Dark theme"
+    },
+    "systemDefault": "System Default",
+    "@systemDefault": {
+        "type": "text",
+        "description": "System Default"
+    },
+    "systemDefaultSubTitle": "Use system default theme",
+    "@systemDefaultSubTitle": {
+        "type": "text",
+        "description": "Use system default theme"
+    },
+    "dynamicColor": "Dynamic Color",
+    "@dynamicColor": {
+        "type": "text",
+        "description": "Dynamic Color"
+    },
+    "dynamicColorSubTitle": "Use dynamic adaptive color",
+    "@dynamicColorSubTitle": {
+        "type": "text",
+        "description": "Use dynamic adaptive color"
+    },
+    "appearance": "Appearance",
+    "@appearance": {
+        "type": "text",
+        "description": "Appearance"
+    },
+    "about": "About",
+    "@about": {
+        "type": "text",
+        "description": "About"
+    },
+    "privacyPolicy": "Privacy Policy",
+    "@privacyPolicy": {
+        "type": "text",
+        "description": "Privacy Policy"
+    },
+    "termsOfService": "Terms of Service",
+    "@termsOfService": {
+        "type": "text",
+        "description": "Terms of Service"
+    },
+    "openSourceLicenses": "Open Source Licenses",
+    "@openSourceLicenses": {
+        "type": "text",
+        "description": "Open Source Licenses"
+    },
+    "version": "Version",
+    "@version": {
+        "type": "text",
+        "description": "Version"
+    }
+}
